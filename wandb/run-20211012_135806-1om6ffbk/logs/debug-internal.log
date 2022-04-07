@@ -1,0 +1,80 @@
+2021-10-12 13:58:08,340 INFO    MainThread:17722 [internal.py:wandb_internal():86] W&B internal server running at pid: 17722, started at: 2021-10-12 13:58:08.340477
+2021-10-12 13:58:08,342 DEBUG   HandlerThread:17722 [handler.py:handle_request():126] handle_request: check_version
+2021-10-12 13:58:08,343 INFO    WriterThread:17722 [datastore.py:open_for_write():77] open: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/run-1om6ffbk.wandb
+2021-10-12 13:58:08,345 DEBUG   SenderThread:17722 [sender.py:send():185] send: header
+2021-10-12 13:58:08,345 DEBUG   SenderThread:17722 [sender.py:send_request():199] send_request: check_version
+2021-10-12 13:58:09,151 DEBUG   SenderThread:17722 [sender.py:send():185] send: run
+2021-10-12 13:58:09,166 INFO    SenderThread:17722 [sender.py:_maybe_setup_resume():427] checking resume status for None/YOLOv5/1om6ffbk
+2021-10-12 13:58:10,214 INFO    SenderThread:17722 [dir_watcher.py:__init__():169] watching files in: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files
+2021-10-12 13:58:10,215 INFO    SenderThread:17722 [sender.py:_start_run_threads():746] run started: 1om6ffbk with start time 1634057886
+2021-10-12 13:58:10,216 DEBUG   SenderThread:17722 [sender.py:send():185] send: summary
+2021-10-12 13:58:10,216 INFO    SenderThread:17722 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-12 13:58:10,217 DEBUG   HandlerThread:17722 [handler.py:handle_request():126] handle_request: run_start
+2021-10-12 13:58:10,223 DEBUG   HandlerThread:17722 [meta.py:__init__():40] meta init
+2021-10-12 13:58:10,223 DEBUG   HandlerThread:17722 [meta.py:__init__():54] meta init done
+2021-10-12 13:58:10,223 DEBUG   HandlerThread:17722 [meta.py:probe():211] probe
+2021-10-12 13:58:10,225 DEBUG   HandlerThread:17722 [meta.py:_setup_git():201] setup git
+2021-10-12 13:58:10,251 DEBUG   HandlerThread:17722 [meta.py:_setup_git():208] setup git done
+2021-10-12 13:58:10,252 DEBUG   HandlerThread:17722 [meta.py:_save_pip():58] save pip
+2021-10-12 13:58:10,253 DEBUG   HandlerThread:17722 [meta.py:_save_pip():72] save pip done
+2021-10-12 13:58:10,253 DEBUG   HandlerThread:17722 [meta.py:_save_conda():79] save conda
+2021-10-12 13:58:11,217 INFO    Thread-8  :17722 [dir_watcher.py:_on_file_created():217] file/dir created: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/requirements.txt
+2021-10-12 13:58:11,218 INFO    Thread-8  :17722 [dir_watcher.py:_on_file_created():217] file/dir created: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/conda-environment.yaml
+2021-10-12 13:58:11,219 INFO    Thread-8  :17722 [dir_watcher.py:_on_file_created():217] file/dir created: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/wandb-summary.json
+2021-10-12 13:58:16,217 INFO    Thread-8  :17722 [dir_watcher.py:_on_file_created():217] file/dir created: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/output.log
+2021-10-12 13:58:18,218 INFO    Thread-8  :17722 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/output.log
+2021-10-12 13:58:20,222 INFO    Thread-8  :17722 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/output.log
+2021-10-12 13:58:22,125 DEBUG   HandlerThread:17722 [meta.py:_save_conda():87] save conda done
+2021-10-12 13:58:22,128 DEBUG   HandlerThread:17722 [meta.py:probe():249] probe done
+2021-10-12 13:58:22,236 INFO    Thread-8  :17722 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/output.log
+2021-10-12 13:58:22,238 INFO    Thread-8  :17722 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/conda-environment.yaml
+2021-10-12 13:58:22,238 INFO    Thread-8  :17722 [dir_watcher.py:_on_file_created():217] file/dir created: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/wandb-metadata.json
+2021-10-12 13:58:22,577 DEBUG   HandlerThread:17722 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-12 13:58:22,577 DEBUG   SenderThread:17722 [sender.py:send_request():199] send_request: stop_status
+2021-10-12 13:58:22,972 DEBUG   SenderThread:17722 [sender.py:send():185] send: config
+2021-10-12 13:58:22,973 DEBUG   SenderThread:17722 [sender.py:send():185] send: files
+2021-10-12 13:58:22,977 INFO    SenderThread:17722 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-10-12 13:58:24,036 INFO    Thread-11 :17722 [upload_job.py:push():137] Uploaded file /tmp/tmp3cn68bknwandb/1h7o4w4y-wandb-metadata.json
+2021-10-12 13:58:24,238 INFO    Thread-8  :17722 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/output.log
+2021-10-12 13:58:30,241 INFO    Thread-8  :17722 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/output.log
+2021-10-12 13:58:32,242 INFO    Thread-8  :17722 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/output.log
+2021-10-12 13:58:38,004 DEBUG   HandlerThread:17722 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-12 13:58:38,007 DEBUG   SenderThread:17722 [sender.py:send_request():199] send_request: stop_status
+2021-10-12 13:58:39,233 DEBUG   SenderThread:17722 [sender.py:send():185] send: stats
+2021-10-12 13:58:39,246 INFO    Thread-8  :17722 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/config.yaml
+2021-10-12 13:58:53,627 DEBUG   HandlerThread:17722 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-12 13:58:53,627 DEBUG   SenderThread:17722 [sender.py:send_request():199] send_request: stop_status
+2021-10-12 13:59:08,797 DEBUG   SenderThread:17722 [sender.py:send():185] send: stats
+2021-10-12 13:59:09,954 DEBUG   HandlerThread:17722 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-12 13:59:09,959 DEBUG   SenderThread:17722 [sender.py:send_request():199] send_request: stop_status
+2021-10-12 13:59:25,783 DEBUG   HandlerThread:17722 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-12 13:59:25,802 DEBUG   SenderThread:17722 [sender.py:send_request():199] send_request: stop_status
+2021-10-12 13:59:38,926 DEBUG   SenderThread:17722 [sender.py:send():185] send: stats
+2021-10-12 13:59:42,361 DEBUG   HandlerThread:17722 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-12 13:59:42,364 DEBUG   SenderThread:17722 [sender.py:send_request():199] send_request: stop_status
+2021-10-12 13:59:57,710 DEBUG   HandlerThread:17722 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-12 13:59:57,710 DEBUG   SenderThread:17722 [sender.py:send_request():199] send_request: stop_status
+2021-10-12 14:00:30,708 DEBUG   SenderThread:17722 [sender.py:send():185] send: stats
+2021-10-12 14:00:32,996 DEBUG   HandlerThread:17722 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-12 14:00:33,000 DEBUG   SenderThread:17722 [sender.py:send_request():199] send_request: stop_status
+2021-10-12 14:00:44,818 WARNING MainThread:17722 [internal.py:is_dead():364] Internal process exiting, parent pid 17699 disappeared
+2021-10-12 14:00:44,910 ERROR   MainThread:17722 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-10-12 14:00:45,708 INFO    SenderThread:17722 [sender.py:finish():986] shutting down sender
+2021-10-12 14:00:45,720 INFO    SenderThread:17722 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-12 14:00:45,771 INFO    WriterThread:17722 [datastore.py:close():281] close: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/run-1om6ffbk.wandb
+2021-10-12 14:00:45,797 INFO    HandlerThread:17722 [handler.py:finish():683] shutting down handler
+2021-10-12 14:00:46,718 INFO    SenderThread:17722 [dir_watcher.py:finish():313] scan: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files
+2021-10-12 14:00:46,729 INFO    SenderThread:17722 [dir_watcher.py:finish():327] scan save: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/requirements.txt requirements.txt
+2021-10-12 14:00:46,794 INFO    SenderThread:17722 [dir_watcher.py:finish():327] scan save: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/config.yaml config.yaml
+2021-10-12 14:00:46,795 INFO    SenderThread:17722 [dir_watcher.py:finish():327] scan save: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/conda-environment.yaml conda-environment.yaml
+2021-10-12 14:00:46,796 INFO    SenderThread:17722 [dir_watcher.py:finish():327] scan save: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/wandb-summary.json wandb-summary.json
+2021-10-12 14:00:46,796 INFO    SenderThread:17722 [dir_watcher.py:finish():327] scan save: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/output.log output.log
+2021-10-12 14:00:46,796 INFO    SenderThread:17722 [dir_watcher.py:finish():327] scan save: /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/wandb-metadata.json wandb-metadata.json
+2021-10-12 14:00:46,872 INFO    SenderThread:17722 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-12 14:00:46,907 INFO    SenderThread:17722 [file_pusher.py:join():182] waiting for file pusher
+2021-10-12 14:00:49,326 INFO    Thread-15 :17722 [upload_job.py:push():137] Uploaded file /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/wandb-summary.json
+2021-10-12 14:00:49,329 INFO    Thread-16 :17722 [upload_job.py:push():137] Uploaded file /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/output.log
+2021-10-12 14:00:49,329 INFO    Thread-13 :17722 [upload_job.py:push():137] Uploaded file /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/config.yaml
+2021-10-12 14:00:49,357 INFO    Thread-12 :17722 [upload_job.py:push():137] Uploaded file /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/requirements.txt
+2021-10-12 14:00:49,523 INFO    Thread-14 :17722 [upload_job.py:push():137] Uploaded file /home/melker/Documentos/Pixel/font_Code/Teste yolov 5/yolov5/wandb/run-20211012_135806-1om6ffbk/files/conda-environment.yaml
+2021-10-12 14:00:50,570 INFO    MainThread:17722 [internal.py:handle_exit():76] Internal process exited

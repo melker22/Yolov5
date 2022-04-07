@@ -1,0 +1,5 @@
+train: ../yolov5/data/scripts/train/images
+val: ../yolov5/data/scripts/valid/images
+
+nc: 3
+names: ['mask_weared_incorrect', 'with_mask', 'without_mask']
